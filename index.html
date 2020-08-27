@@ -3,72 +3,116 @@
 <head>
   <meta charset="UTF-8">
   <title>Liz Bio!</title>
-  <style>
-     h1 {
-    margin-bottom: 15px;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    background-color: black;
-  }
-  h2 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  p {
-    text-align: center;
-    font-size: 25px;
-    border-style: solid;
-    border-width: 5px;
-    list-style-position: inside;
-  }
-  ul {
-    text-align: center;
-    font-size: 25px;
-    border-style: solid;
-    border-width: 5px;
-    list-style-position: inside;
-  }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Liz Bio page</h1>
-  </header>
-  <main class="container">
-    <IMG BORDER="5" ALIGN="Left" SRC="liz.jpg"> <p>My name is Lizbeth Eli, I prefer to go by Liz. I decided to change my occupation from Health Care Management
-      after 8 years of dedication to the role. I enjoy working in a team, I wanted to study and learn more about the
-       part of my job that always made me happy. During my time as a Patient Transport Manager I learned I could help 
-       my staff work smarter by finding where the problems where to meet our team goals. Data was always my secret weapon 
-       to creating effective new process’s to keep clients happy. This position lead to my promotion to Patient Experience Manager.
-        I used the data to find where people needed to go, why we weren’t performing to standards and to find ways to reach our 
-        HCAHPS goals. I acquired knowledge and skills in Data Analysis to make myself more effective in interpreting data.
-         I am ready to start a long time cooperation as an Analyst.</p>
-      </section>
-        <p>When it comes to personal life, I’m very blessed. I’m thankful to have a loving husband and two wonderful kids.
-           My kids are both small, they have taught me to master the art of preparedness. I can prepare for a so many situations
-            and if I didn’t then we find a way to be ok. When was the last time you laughed so hard your stomach hurt? Was it long ago? 
-            I like being happy, I like smiling, I like laughing like a weirdo randomly when I remember my kids laughing uncontrollably
-             to something that isn’t funny. The world is constantly changing and I like knowing that no matter what I can control the
-              moments I live in and help my children control them too. At work I am always one to give away a smile and a good morning. 
-              I strive to be is a good person, I can be the most competitive person in the room, and remain the kindest. I enjoy being
-               the reason someone smiles, even if its to a stranger, or only for a minute.  At home and at work I believe we all receive
-                what we give to the world, and I will help create good people and help anyone I can help along the way.
 
-        </p>
-    </section>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Simply Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+    p.dotted {border-style: dotted;}
 
-    <aside id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="avilalizbeth@yahoo.com">avilalizbeth@yahoo.com</a></li>
-        <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/lizbetheli/">Checkout my linkedin!</a></li>
-      </ul>
-    </aside>
-  </main>
+    p {font-size: 16px;}
+    .margin {margin-bottom: 45px;}
+    .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+    }
+    .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+    }
+    .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+    }
+    .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+    }
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    </style>
+  </head>
 
-</body>
-
-</html>
+  <body>
+  <!-- First Container -->
+  <div class="container-fluid bg-2 text-center">
+    <h2 class="margin">Lizbeth Eli</h2>
+    <img src="liz.jpg" class="img-responsive img" style="display:inline" alt="Liz Eli" width="250" height="250">
+    <h3>I'm a Protagonist(I-N-F-J)<br>
+        I'm an Adventurer<br>
+        I'm Versatile<br>
+        I'm Liz <br> 
+    </h3>
+  </div>
+  
+  <!-- Second Container -->
+  <div class="container -fluid bg-1 text-center">
+    <h2 class="margin">Who Am I?</h2>
+    <p><div class="row">
+    <div class="col-md-6">
+      <p><br>My name is Lizbeth Eli, I prefer to go by Liz. I decided to change my occupation from Health Care Management
+        after 8 years of dedication to the role. I enjoy working in a team, I wanted to study and learn more about the
+         part of my job that always made me happy. During my time as a Patient Transport Manager I learned I could help 
+         my staff work smarter by finding where the problems where to meet our team goals. Data was always my secret weapon 
+         to creating effective new process’s to keep clients happy. This position lead to my promotion to Patient Experience Manager.
+          I used the data to find where people needed to go, why we weren’t performing to standards and to find ways to reach our 
+          HCAHPS goals. I acquired knowledge and skills in Data Analysis to make myself more effective in interpreting data.
+           I am ready to start a long time cooperation as an Analyst.
+            </p>
+    </div>
+    <div class="col-md-6">
+      <p>When it comes to personal life, I’m very blessed. I’m thankful to have a loving husband and two wonderful kids.
+        My kids are both small, they have taught me to master the art of preparedness. I can prepare for a so many situations
+         and if I didn’t then we find a way to be ok. When was the last time you laughed so hard your stomach hurt? Was it long ago? 
+         I like being happy, I like smiling, I like laughing like a weirdo randomly when I remember my kids laughing uncontrollably
+          to something that isn’t funny. The world is constantly changing and I like knowing that no matter what I can control the
+           moments I live in and help my children control them too. At work I am always one to give away a smile and a good morning. 
+           I strive to be is a good person, I can be the most competitive person in the room, and remain the kindest. I enjoy being
+            the reason someone smiles, even if its to a stranger, or only for a minute.  At home and at work I believe we all receive
+             what we give to the world, and I will help create good people and help anyone I can help along the way. </p>
+  </div>
+  
+  <!-- Third Container (Grid) -->
+  <div class="container-fluid bg-3 text-center">    
+    <h2 class="margin">Links and Information</h2><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <br><br><h3>Email </h3>
+          <a href="avilalizbeth@yahoo.com">avilalizbeth@yahoo.com</a>
+       </div>
+      <div class="col-sm-4"> 
+        <h3>Projects</h3>
+        <a href="https://github.com/Lizbetheli/sql-challenge.git">SQL Example</a>
+        <p>SQL example an example of Data Modeling, Data Engineering and Data Analysis using PostgreSQL</p>
+        <a href="https://github.com/Lizbetheli/Diabetes-Demographics-in-Colorado.git">Project Using Python</a>
+        <p>Team project using matplotlib, python to find correlations between, age, low income, low access, urban vs. rural as they pertain to diabetes rates in Colorado</p>
+      </div>
+      <div class="col-sm-4"> 
+        <br><br><h3>Linkedin </h3>
+        <a href="https://www.linkedin.com/in/lizbetheli/">My Linkedin!</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="container-fluid bg-4 text-center">
+    <p>Hope to hear from you!<br> & have a wonderful day</p> 
+  </footer>
+  
+  </body>
+  </html>
